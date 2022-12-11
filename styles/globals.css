@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .navButtons{
+        @apply  px-6 py-2  uppercase text-sm tracking-widest text-gray-500 transition-all hover:text-gray-50 }
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -11,4 +15,4 @@ body{
     padding: 0;
     /* Prevents overflow on the x-axis */
     overflow-x: hidden;
-}
+}}
